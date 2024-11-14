@@ -107,3 +107,44 @@ int main(){
     
     
 }
+
+
+
+
+
+
+
+
+
+
+// swap two vector
+
+
+#include<bits/stdc++.h>
+using namespace std;
+void explainVector(){
+    vector<int> ans1;
+  
+  
+   
+    ans1.push_back(10);
+    ans1.push_back(20);
+    ans1.push_back(30);
+    ans1.push_back(30);
+    ans1.insert(ans1.begin()+2,8);
+    ans1.insert(ans1.end(),40);
+    for(auto i: ans1){
+        cout<<i<<" ";
+    }
+   
+
+   
+    
+    
+  
+}
+int main(){
+    explainVector();
+  
+    
+}
