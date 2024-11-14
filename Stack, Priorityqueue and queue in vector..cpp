@@ -94,7 +94,8 @@ int main(){
 #include<bits/stdc++.h>
 using namespace std;
 void explainPriorityQueue(){
-    priority_queue<int> pq;
+    // we want to print smaller element first
+    priority_queue<int,vector<int> greater<int>> pq;
     pq.push(100);
     pq.push(50);
     pq.push(60);
