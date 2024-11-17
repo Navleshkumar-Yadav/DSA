@@ -15,6 +15,8 @@ void explainSort(){
     for(auto it : ans){
         cout<<it<<" ";
     }
+    sort(ans.begin()+1 , ans.begin()+3) ; //2 1 8 3 6
+      sort(ans.begin()+1 , ans.begin()+4) ; //2 1 7 8 6
 }
 int main(){
     explainSort();
